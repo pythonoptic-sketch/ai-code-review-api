@@ -1,0 +1,16 @@
+{
+  "name": "claude-agent-service",
+  "version": "1.0.0",
+  "description": "AI-powered code review and automation service",
+  "private": true,
+  "scripts": {
+    "dev": "node api/index.js",
+    "build": "echo 'no build needed'"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
