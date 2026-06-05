@@ -124,7 +124,9 @@ function renderSharePage(id, data, serviceUrl) {
     <pre><code>${escHtml(review.refactored)}</code></pre>` : "";
 
   return `<!DOCTYPE html>
-<html><head>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${language} Code Review — Score ${review.score}/10</title>
 <meta name="description" content="${escHtml(review.summary)}">
 <meta property="og:title" content="${language} code scored ${review.score}/10 in AI review">
@@ -222,7 +224,11 @@ const server = http.createServer(async (req, res) => {
     const data = sharedReviews[id];
     if (!data) {
       res.writeHead(404, { "Content-Type": "text/html" });
-      res.end(`<html><body style="font-family:sans-serif;background:#0d1117;color:#e6edf3;padding:40px;text-align:center">
+      res.end(`<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family:sans-serif;background:#0d1117;color:#e6edf3;padding:40px;text-align:center">
         <h1 style="color:#f85149">Review not found</h1>
         <p><a href="${serviceUrl}" style="color:#58a6ff">Get a new review</a></p>
       </body></html>`);
@@ -237,7 +243,9 @@ const server = http.createServer(async (req, res) => {
   if (req.method === "GET" && url.pathname === "/") {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.end(`<!DOCTYPE html>
-<html><head>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Code Review API — $5/month unlimited</title>
 <meta name="base:app_id" content="69d27785ecad884a3318a820" />
 <meta name="description" content="Instant AI-powered code review REST API. Free tier available. $5 USDC/month for unlimited.">
