@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "generated_at_local": "2026-06-17T09:30:27-0700",
+  "timezone": "America/Los_Angeles",
+  "workspace": "/Users/simonwasserman/Documents/Codex/2026-05-17/we-are-launching-an-ai-enabled",
+  "purpose": "Compressed source-of-truth context for an agentic outreach system continuing Python Water investor, UAE strategic partnership, and commercial placement outreach without restarting failed cold-email behavior.",
+  "global_status": {
+    "current_primary_strategy": "No-email, relationship-led outreach through warm intros, LinkedIn/X, official forms, events, platform routes, operator angels, phone, WhatsApp, and manual partner routing.",
+    "outlook_status": "Suppressed for all outbound actions.",
+    "cold_email_status": "Do not use. Cold email has failed as a primary channel and damaged deliverability.",
+    "outreach_priority": [
+      "Investor meetings through comparable-company investor graph and warm routes.",
+      "UAE commercial placement through wellness, longevity, hospitality, residence, fitness, pharmacy, retail, and distributor operators.",
+      "Strategic hydration and wearable-health partnerships through official forms, social DMs, LinkedIn, X, events, and partner intros."
+    ]
+  },
+  "identity": {
+    "founder_name": "Simon Wasserman",
+    "company": "Python Water",
+    "email": "simon@pythonwater.com",
+    "phone": "+1 323.470.9456",
+    "website": "https://www.pythonwater.com",
+    "location_context": "Simon is in or near San Francisco for investor meetings when relevant.",
+    "role": "Founder/CEO, Python Water"
+  },
+  "company_profile": {
+    "product_name": "Python Water - Bionic Hydrogen Water Bottle",
+    "core_product": "AI-enabled H2/ERW hydration products, including the Bionic+ AI Bottle and Bionic Fountain.",
+    "venture_positioning": "Hydration intelligence: connected H2/ERW bottle plus wearable and health data producing a daily hydration score and personalized hydration protocol.",
+    "hardware_wedge": "The connected bottle creates the daily behavior loop and premium physical product wedge.",
+    "software_data_layer": "Wearable integrations, intake data, water-quality context, and AI scoring create the venture-scale platform story.",
+    "category_analogy": "Oura/WHOOP/Levels made sleep, readiness, recovery, and glucose actionable. Python Water should frame hydration as the missing daily score.",
+    "claimed_integrations": [
+      "Garmin",
+      "Oura",
+      "WHOOP",
+      "Apple HealthKit"
+    ],
+    "proof_points": [
+      "AI prototype ready.",
+      "Organic sales history from previous Python Water products.",
+      "Early clinic and UAE pull.",
+      "UAE activity through Resync, Transcend Healthcare, and Ali Archibald.",
+      "Market thesis: hydration, wearables, preventive wellness, and longevity are converging."
+    ],
+    "claim_guardrails": [
+      "Do not make medical treatment claims.",
+      "Do not make disease prevention claims.",
+      "Do not make diagnostic claims.",
+      "Do not guarantee clinical outcomes.",
+      "Do not rely on exaggerated hydrogen-water science claims.",
+      "Use functional hydration, wellness routine support, hydration intelligence, personalized hydration score, and protocol language."
+    ]
+  },
+  "fundraising_doctrine": {
+    "primary_investor_frame": "Python Water is not primarily a hydrogen water bottle company. It is a hydration-intelligence company where the bottle is the wedge and the score/data layer is the venture story.",
+    "do_not_lead_with": [
+      "Hydrogen water bottle alone.",
+      "Long scientific education.",
+      "Exact raise amount in first touch.",
+      "Deck attachments in first touch.",
+      "Generic raising language before thesis fit.",
+      "NDA requests.",
+      "Vague testing-the-waters language.",
+      "Overlong investor emails.",
+      "Multiple-partner spam at the same firm."
+    ],
+    "lead_with": [
+      "Connected H2/ERW bottle plus wearable data.",
+      "Daily AI hydration score and personalized protocol.",
+      "Hardware creates behavior loop; data layer creates venture scale.",
+      "Organic revenue and UAE/clinic pull.",
+      "Specific reason this investor should care.",
+      "Request for thesis check or better intro."
+    ],
+    "book_lessons_hardwired": {
+      "from_the_great_ceo_within": [
+        "Operate with clear goals, ownership, cadence, and accountability.",
+        "Track decisions, owners, next actions, and follow-up dates.",
+        "Keep communications concise, explicit, and action-oriented.",
+        "Do not confuse activity with progress; measure meetings, intros, replies, and qualified opportunities, not messages sent.",
+        "Surface mistakes directly and convert them into operating rules."
+      ],
+      "from_venture_deals": [
+        "Fundraising is a process, not a batch send.",
+        "Investors evaluate team, market, product, traction, terms, risk, and narrative discipline.",
+        "Prepare diligence hygiene before serious meetings: cap table, corporate docs, IP, team, product/demo, traction, assumptions, use of funds, and known risks.",
+        "Do not optimize only for valuation; understand partner fit, terms, control, board rights, liquidation preference, pro rata, and signaling.",
+        "Avoid rookie signals such as NDA requests, sloppy claims, unclear use of funds, and hiding risks."
+      ],
+      "agent_behavior_when_simon_makes_a_mistake": "Politely flag why the move hurts credibility, leverage, or deliverability, then give the corrected approach and a usable next step."
+    }
+  },
+  "hard_constraints": {
+    "outlook": {
+      "status": "Outbound suppressed.",
+      "do_not": [
+        "Do not send Outlook email.",
+        "Do not create Outlook drafts.",
+        "Do not schedule Outlook sends.",
+        "Do not press Outlook Send Again.",
+        "Do not retry bounced messages.",
+        "Do not use Outlook to send attachments.",
+        "Do not treat Drafts as safe or reliable because prior Drafts/Sent leakage occurred."
+      ],
+      "read_only_allowed": [
+        "Read-only reply monitoring.",
+        "Bounce logging.",
+        "Sent/Drafts delta checks.",
+        "Inbox triage for human replies."
+      ],
+      "known_failure_signature": "550 5.1.8 Access denied, bad outbound sender AS(42004)",
+      "interpretation": "Treat AS(42004) as a sender/account reputation block, not a normal recipient-specific bounce.",
+      "restart_gate": [
+        "Microsoft Restricted entities issue cleared.",
+        "SPF/DKIM/DMARC aligned with actual sending provider.",
+        "Old scheduled sends confirmed inactive.",
+        "Controlled test sends to known contacts pass without NDRs.",
+        "Simon explicitly reauthorizes outbound email in the current thread."
+      ]
+    },
+    "daily_volume": {
+      "historic_rule": "Keep outbound email under 20 per day with natural pauses.",
+      "current_rule": "Do not use email. For social/manual routes, still avoid volume behavior; prioritize high-fit named people and warm routes."
+    },
+    "attachments": {
+      "first_touch": "Do not attach decks or PDFs in first touch.",
+      "investor_deck": "Only send if a qualified investor asks or if an official application requires it and Simon approves.",
+      "uae_consignment_pdf": "Only send to qualified UAE leads who ask for more information, and only through clean authenticated sender, WhatsApp, manual route, or approved portal."
+    },
+    "first_touch_raise_amount": "Do not mention the exact raise amount in first-touch investor copy.",
+    "medical_claims": "Avoid treatment, prevention, diagnosis, guaranteed outcomes, and clinical efficacy claims."
+  },
+  "deliverability_context": {
+    "incident_dates": [
+      "2026-06-13",
+      "2026-06-14",
+      "2026-06-15"
+    ],
+    "symptoms": [
+      "Many messages bounced from Microsoft Outlook.",
+      "NDRs said the sending address was not recognized as a valid sender or was suspected of sending spam.",
+      "Daily protective cap was exceeded.",
+      "Public inbox outreach produced bounces instead of meetings."
+    ],
+    "representative_bounced_recipients": [
+      "info@dsp.ae",
+      "info@dhcc.ae",
+      "info@omniyat.com",
+      "contactus@deyaar.ae",
+      "customercare@nakheel.com",
+      "promenade@marinapharmacy.com",
+      "customerservice@drnutrition.com",
+      "info@docibgroup.com",
+      "info@mediclinic.ae",
+      "info@luxurywellness.ae"
+    ],
+    "dns_findings_from_workspace": {
+      "spf_observed": "v=spf1 include:zohomail.com include:icloud.com ~all",
+      "spf_missing_if_microsoft_is_sender": "include:spf.protection.outlook.com",
+      "dmarc_observed_issue": "_dmarc.pythonwater.com returned Apple domain-verification TXT instead of real DMARC policy.",
+      "mx_observed": [
+        "Zoho MX records",
+        "iCloud MX records"
+      ],
+      "interpretation": "Pythonwater.com appears to have a split mail stack. Sending via Microsoft while SPF authorizes Zoho/iCloud creates authentication and alignment risk."
+    },
+    "allowed_until_repaired": [
+      "Research.",
+      "Official forms.",
+      "LinkedIn route mapping.",
+      "X route mapping.",
+      "Instagram DM only where stable and appropriate.",
+      "Phone/manual route preparation.",
+      "WhatsApp route preparation.",
+      "Warm-intro mapping.",
+      "Reply monitoring.",
+      "Bounce logging."
+    ]
+  },
+  "conversation_timeline": [
+    {
+      "phase": "Initial investor outreach",
+      "summary": "Simon asked to find potential SF-area investors for Python Water, then reach out using Outlook. Early copy mentioned raising 3M, AI hydration, H2 bottle, wearables, and integrations. Later constraints added daily send cap under 20 and natural pauses."
+    },
+    {
+      "phase": "Message compression",
+      "summary": "Simon rejected longer outreach and moved to a short founder-led message: Simon in SF building Python Water, AI hydration, hydrogen bottle plus wearables, hydration score like readiness for water, 15-minute meeting ask."
+    },
+    {
+      "phase": "Deck handling",
+      "summary": "Decks were referenced, including Python_Water_Backfield_Final_Deck_Ordered.pdf and Python-Deck.pdf, but later doctrine changed: do not attach decks in first touch and do not include Drive materials link unless explicitly requested."
+    },
+    {
+      "phase": "Proper-firm pivot",
+      "summary": "Simon determined small generic investors were low value and directed focus toward proper investment firms and named decision makers at credible funds such as Benchmark, Founders Fund, a16z, Sequoia, Khosla, General Catalyst, GV, NEA, Bessemer, Kleiner Perkins, Greylock, Menlo, Index, Accel, Lux, Redpoint, First Round, Maveron, and similarly credible firms only when there is clear fit."
+    },
+    {
+      "phase": "Fundraising education",
+      "summary": "Simon added The Great CEO Within and Venture Deals and asked that lessons be hardwired into investor outreach and coaching. Resulting doctrine: concise, credible, milestone-driven, investor-process aware, no rookie signals, and direct coaching when strategy weakens leverage."
+    },
+    {
+      "phase": "UAE strategic pivot",
+      "summary": "Simon shifted focus to the UAE around Dubai Longevity Authority, HRW/ERW hydration, longevity, wellness, clinics, retreats, biophilic residences, hospitality, premium retail, and partnerships. Python Water should mention existing UAE work with Resync, Transcend Healthcare, and Ali Archibald."
+    },
+    {
+      "phase": "UAE commercial placement",
+      "summary": "Simon added Consignment_Wholesale_Proposal_Final.pdf for UAE. The commercial offer became wholesale or no-upfront consignment for Bionic+ AI Bottles and Bionic Fountain, with premium functional hydration positioning and no medical claims."
+    },
+    {
+      "phase": "Deliverability failure",
+      "summary": "Outlook bounced large numbers of messages with AS(42004). Agent doctrine changed to hard stop on Outlook sends, drafts, scheduled sends, retries, and automatic replies."
+    },
+    {
+      "phase": "Non-email pivot",
+      "summary": "Simon directed: forget Outlook and use LinkedIn, X, Instagram, official forms, phone, WhatsApp, and warm intros. Instagram DMs were sent to several UAE and healthtech ecosystem accounts, but Instagram later hit browser policy blocks."
+    },
+    {
+      "phase": "Investor strategy reset",
+      "summary": "Simon said cold email does not work and requested a better strategy. The new source-of-truth strategy is no-email investor discovery via comparable-company investor graph, live rooms, operator angels, platform intro routes, and warm introductions."
+    }
+  ],
+  "active_outreach_lanes": {
+    "investor_fundraising": {
+      "objective": "Book qualified investor meetings and thesis-check calls.",
+      "strategy": "Build investor graph from comparable companies, identify warmest route, use LinkedIn/X/event/platform/operator intros, ask for thesis check or better intro.",
+      "primary_comparables": [
+        "Oura",
+        "WHOOP",
+        "Levels",
+        "Eight Sleep",
+        "Function Health",
+        "Nix Biosensors",
+        "LARQ",
+        "HidrateSpark",
+        "AG1",
+        "InsideTracker",
+        "Biostrap",
+        "Ultrahuman"
+      ],
+      "priority_platforms_and_rooms": [
+        {
+          "name": "What's Next Longevity Venture Summit",
+          "timing": "June 16-18, 2026",
+          "location": "UC Berkeley / San Francisco",
+          "priority": "Immediate as of 2026-06-17",
+          "route": "Find organizers, speakers, sponsors, attendees, and investor participants on LinkedIn/X; ask who understands consumer health hardware plus wearable data."
+        },
+        {
+          "name": "NFX Signal"
+        }
+      ]
+    }
+  }
+}
