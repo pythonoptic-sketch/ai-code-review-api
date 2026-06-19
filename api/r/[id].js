@@ -13,7 +13,11 @@ export default function handler(req, res) {
 
   if (!data) {
     res.setHeader("Content-Type","text/html");
-    return res.status(404).send(`<html><body style="font-family:sans-serif;background:#0d1117;color:#e6edf3;padding:40px;text-align:center">
+    return res.status(404).send(`<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family:sans-serif;background:#0d1117;color:#e6edf3;padding:40px;text-align:center">
       <h1 style="color:#f85149">Review not found</h1>
       <p style="color:#8b949e">Reviews are stored in memory and may reset. <a href="${baseUrl}" style="color:#58a6ff">Get a new review →</a></p>
     </body></html>`);
@@ -36,7 +40,9 @@ export default function handler(req, res) {
 
   res.setHeader("Content-Type","text/html");
   res.status(200).send(`<!DOCTYPE html>
-<html><head>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${language} Code Review — Score ${review.score}/10</title>
 <meta name="description" content="${esc(review.summary)}">
 <meta property="og:title" content="${language} code scored ${review.score}/10 in AI review">
